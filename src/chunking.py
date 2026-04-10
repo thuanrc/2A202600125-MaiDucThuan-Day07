@@ -102,7 +102,7 @@ class RecursiveChunker:
 
         parts = current_text.split(separator)
 
-        # Try to group consecutive parts that fit within chunk_size
+
         chunks: list[str] = []
         current_chunk = ""
         for part in parts:
@@ -124,7 +124,7 @@ class RecursiveChunker:
                 else:
                     current_chunk = part
 
-        # Don't forget the last accumulated chunk
+
         if current_chunk.strip():
             if len(current_chunk) > self.chunk_size and rest:
                 sub_chunks = self._split(current_chunk, rest)
