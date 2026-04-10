@@ -1,8 +1,7 @@
 # Lab 7: Embedding & Vector Store — Nền Tảng Dữ Liệu RAG
 
-## Thông tin sinh viên
+## Thông tin học viên
 
-| | |
 |---|---|
 | **Họ tên** | Mai Đức Thuận |
 | **MSSV** | 2A202600125 |
